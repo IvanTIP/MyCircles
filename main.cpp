@@ -14,9 +14,9 @@ private:
 public:
     explicit ImageCircle(QWidget *parent) {
         setParent(parent);
-        greenCircle = QPixmap("D:\\SkillboxProjects\\qt2\\ex1\\pictures\\green.png");
-        yellowCircle = QPixmap("D:\\SkillboxProjects\\qt2\\ex1\\pictures\\yellow.png");
-        redCircle = QPixmap("D:\\SkillboxProjects\\qt2\\ex1\\pictures\\red.png");
+        greenCircle = QPixmap("../green.png");
+        yellowCircle = QPixmap("../yellow.png");
+        redCircle = QPixmap("../red.png");
         currentCircle = greenCircle;
     }
     void paintEvent(QPaintEvent *e) override {
